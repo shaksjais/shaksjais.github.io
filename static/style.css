@@ -1,0 +1,163 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .nav .active {
+    background-color: rgb(44, 112, 139);
+  }
+
+  .home {
+      height: 700px;
+      margin: 0 !important;
+      padding: 0 !important;
+      background: rgba(42, 93, 141, 0.3) /* Green background with 30% opacity */
+  }
+
+  .home h {
+    margin-left: 38%;
+    text-align: justify;
+    box-align: center;
+    font-size: 60px;
+  }
+
+  .home .intro {
+    margin-top: 80px;
+    float: left;
+    height: 300px;
+    width: 50%;
+}
+
+.home .intro span {
+  margin: 30px;
+  padding-top: 10px;
+}
+
+.home .intro p {
+  margin: 30px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.home .pic {
+  margin-top: 80px;
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+
+
+  .about {
+    height: 700px;
+    background: rgba(87, 40, 161, 0.3) /* Green background with 30% opacity */
+}
+
+.about h {
+  margin-left: 40%;
+  text-align: justify;
+  box-align: center;
+  font-size: 60px;
+}
+
+.about .about-info {
+  margin-left: 10%;
+  text-align: justify;
+  box-align: center;
+}
+
+.about .about-info p {
+  width: 400px;
+}
+
+.contact {
+  height: 500px;
+  background: rgba(197, 128, 25, 0.3) /* Green background with 30% opacity */
+}
+
+.contact h {
+    margin-left: 40%;
+    text-align: justify;
+    box-align: center;
+    font-size: 60px;
+}
+
+.contact .form {
+    margin-top: 80px;
+    float: left;
+    height: 300px;
+    width: 50%;
+}
+
+.contact .form .inpu {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.contact .form .btn {
+  margin-top: 70px;
+  position: absolute;
+  margin-left: -180px;
+}
+
+.contact .info {
+  margin-top: 80px;
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+
+.gallery {
+  height: 700px;
+  background: rgba(187, 35, 93, 0.3) /* Green background with 30% opacity */
+}
+
+.gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery .column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.gallery .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 300px;
+  width: 600px;
+}
+
+.gallery h {
+  margin-left: 40%;
+  text-align: justify;
+  box-align: center;
+  font-size: 60px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">                                                                                                  
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">                                                   
+        <link type="text/css" rel="stylesheet" href="./static/admin.css" />
+        <script type="text/javascript" src="./static/script.js"></script>
+        <script type="text/javascript" src="./static/images.js"></script>  
+        <title>Gallery Admin</title>
+    </head>
+    <body>
+        <h1>
+            Gallery Admin Page
+        </h1>
+        <label id="updated" ></label>
+        <form onsubmit="updateImages(); return false;" id="imageForm" action="">
+            <input id="url" placeholder="Image URL" type="url" required /><br/>
+            <input id="imageName" placeholder="Enter image name" required /><br/>
+            <input id="info" placeholder="Enter image information" required /><br/>
+            <input id="uploadDate" placeholder="Image date" type="date" required /><br/>
+            <input type="submit" value="Submit" />
+            
+
+        </form>
+        
+    </body>
+</html>

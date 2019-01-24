@@ -1,10 +1,10 @@
 body {
-    margin: 40px;
+    margin: 20px;
     background-image: url('./back.jpg')
 }
 
 form input {
-    margin: 10px;
+    margin: 20px;
 }
 
 label {

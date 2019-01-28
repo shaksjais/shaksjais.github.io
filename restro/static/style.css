@@ -1,0 +1,234 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.tables {
+    float: left;
+    height: 100%;
+    overflow: auto;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.tables h {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.search-table {
+    margin-top: 25px;
+    width: 75%;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    color: rgba(4,5,5,1);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5) ;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+
+.table {
+  width: 220px;
+  height: 85px;;
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-top: 20px;
+  overflow: hidden;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+ .tNo {
+    margin-top: 0px;
+    padding-bottom: 25px;
+    display: list-item;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.items {
+    font-size: 15px;
+    color: gray;
+}
+
+.menu {
+    overflow: hidden;
+    margin-left: 50px;;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    border-left: 3px solid black;
+}
+
+.menu h {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.search-menu {
+    margin-top: 25px;
+    margin-left: -530px;
+    width: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    color: rgba(4,5,5,1);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5) ;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+
+.dish {
+  width: 900px;
+  height: 105px;
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-left: -50px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+ .dName {
+    margin-top: 0px;
+    padding-bottom: 25px;
+    display: list-item;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.dCost {
+    font-size: 15px;
+    color: gray;
+}
+
+.line {
+    border-left: 3px solid black;
+    height: 100%;
+    margin-left: 20%;
+    position: absolute;
+    float: left;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    height: 420px;
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 650px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .title-bar {
+      width: 650px;
+      background-color: #3D4EAE;
+      height: 60px;
+      font-size: 20px;
+
+  }
+
+  .heading {
+      margin-top: 17px;
+      position: absolute;
+      margin-left: 15px;
+      color: white;
+  }
+  
+
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .tablehead {
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-bottom: 30px; 
+    text-align: center; 
+  }
+
+  .order {
+      margin-top: 30px;
+      margin-left: 20px;
+      table-layout: fixed;
+  }
+
+  .sNo  {
+      text-align: center;
+      vertical-align: center;
+  }
+
+  .itemName {
+    vertical-align: center;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+.itemPrice {
+    text-align: center;
+    vertical-align: center;
+}
+
+.quantity {
+    border-bottom: 2px solid #3D4EAE;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.close-session {
+    border: none;
+    background:none;
+    outline: none;
+    position: relative;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+
+.totalcost {
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.remove {
+    cursor: pointer;
+}

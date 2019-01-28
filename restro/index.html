@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">                                                                                                  
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">                                                   
+    <link type="text/css" rel="stylesheet" href="./static/style.css" />
+     
+    <title>Restaurant</title>
+</head>
+<body onload="pageLoad()">
+    <div class="tables" id="tables">
+        <h>Tables</h>       
+        <input class="search-table" type="search" id="search" placeholder="Search table"/>
+        <div>
+            <div class="table" onclick="showDetails(this)" ondrop="drop(event, this)" ondragover="allowDrop(event)" id="Table-1">
+              <label class="tNo">Table-1</label>
+              <label class="items">Rs. 0 | Total items:0</label>
+            </div>
+            <div class="table" onclick="showDetails(this)" ondrop="drop(event, this)" ondragover="allowDrop(event)" id="Table-2">
+              <label class="tNo">Table-2</label> 
+              <label class="items">Rs. 0 | Total items:0</label>
+            </div>
+            <div class="table" onclick="showDetails(this)" ondrop="drop(event, this)" ondragover="allowDrop(event)" id="Table-3">
+              <label class="tNo">Table-3</label> 
+              <label class="items">Rs. 0 | Total items:0</label>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <h>Menu</h>
+        <input class="search-menu" type="search" placeholder="Search menu" />
+        <div id="dishes">
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="title-bar">
+              <label class="heading">Table-1 | Order Details</label>
+              <span class="close" onclick="closePopUp()">&times;</span>
+            </div>
+            <table class="order">
+              <th style="padding-bottom: 30px;">S.No</th>
+              <th class="tablehead">Item</th>
+              <th class="tablehead">Price</th>
+              <tbody id="popup-body">
+            </tbody>
+            </table>
+            <label id="totalcost" class="totalcost"></label>
+            <button class="close-session" onclick="generateBill()">Close Session(Generate Bill)</button>
+          </div>
+        
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="./static/script.js"></script>
+</body>
+
+</html>
